@@ -1,5 +1,12 @@
+import animals.Animal;
+import animals.Duck;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+       Animal test = new Duck(1, 15, "черный", "хрень");
+
+       System.out.println(test.toString());
+
+
     }
 }
