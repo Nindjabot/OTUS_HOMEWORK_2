@@ -43,13 +43,11 @@ public abstract class Animal implements IAnimal {
 
     @Override
     public String calculateAge(int age) {
-        if (age == 1){
+        if (age == 1) {
             return "год";
-        }
-        else if (age >= 2 && age <= 4){
+        } else if (age >= 2 && age <= 4) {
             return "года";
-        }
-        else return "лет";
+        } else return "лет";
     }
 
     public int getAge() {
@@ -86,6 +84,6 @@ public abstract class Animal implements IAnimal {
 
     @Override
     public String toString() {
-        return "Привет! Меня зовут " + name +", мне " + age + " " + calculateAge(age) + ", я вешу " + weight +" кг, мой цвет - " + color;
+        return "Привет! Меня зовут " + name + ", мне " + age + " " + calculateAge(age) + ", я вешу " + weight + " кг, мой цвет - " + color;
     }
 }

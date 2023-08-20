@@ -2,13 +2,13 @@ package animals;
 
 public interface IAnimal {
 
-    void animalSay ();
+    void animalSay();
 
-    void animalGo ();
+    void animalGo();
 
-    void animalDrink ();
+    void animalDrink();
 
-    void animalEat ();
+    void animalEat();
 
-    String calculateAge (int age);
+    String calculateAge(int age);
 }

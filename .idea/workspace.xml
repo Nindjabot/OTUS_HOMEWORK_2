@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2352aa75-f2eb-4469-bf5c-82a24fe8e974" name="Changes" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/src/animals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animals/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animals/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animals/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animals/IAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animals/IFlying.java" afterDir="false" />
+    <list default="true" id="2352aa75-f2eb-4469-bf5c-82a24fe8e974" name="Changes" comment="Process started">
+      <change afterPath="$PROJECT_DIR$/src/config/AnimalTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/Commands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -21,6 +17,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -41,7 +38,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/clawandfang/IdeaProjects/OTUS_HOMEWORK_2"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692476862670</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Process started">
+      <created>1692479485959</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692479485959</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +81,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="Process started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Process started" />
   </component>
 </project>
