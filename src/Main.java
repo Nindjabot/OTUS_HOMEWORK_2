@@ -37,8 +37,16 @@ public class Main {
                         System.out.println("Укажите возраст животного");
                         tempAge = scanner.nextInt();
 
+                        if (tempAge <= 0){
+                            throw new Exception();
+                        }
+
                         System.out.println("Укажите вес животного");
                         tempWeight = scanner.nextInt();
+
+                        if (tempWeight <= 0){
+                            throw new Exception();
+                        }
 
                         switch (animalCase) {
                             case CAT: {
