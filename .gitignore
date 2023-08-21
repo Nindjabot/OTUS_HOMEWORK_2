@@ -2,5 +2,3 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-OTUS_HOMEWORK_2.iml
-.idea
