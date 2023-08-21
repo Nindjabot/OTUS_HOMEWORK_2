@@ -6,11 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2352aa75-f2eb-4469-bf5c-82a24fe8e974" name="Changes" comment="Homework finished">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/OTUS_HOMEWORK_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+    <list default="true" id="2352aa75-f2eb-4469-bf5c-82a24fe8e974" name="Changes" comment="Small bugfix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692547540158</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Small bugfix">
+      <created>1692619723758</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692619723758</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,17 +103,7 @@
     <MESSAGE value="Initial" />
     <MESSAGE value="Process started" />
     <MESSAGE value="Homework finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework finished" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/animals/Animal.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Small bugfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small bugfix" />
   </component>
 </project>
