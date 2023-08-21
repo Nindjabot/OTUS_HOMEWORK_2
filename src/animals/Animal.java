@@ -43,11 +43,18 @@ public abstract class Animal implements IAnimal {
 
     @Override
     public String calculateAge(int age) {
-        if (age == 1) {
+        String ageString = Integer.toString(age);
+        int lastNumber = ageString.charAt(ageString.length()-1) - '0';
+        if (ageString.length() >=2 && ageString.charAt(ageString.length()-2) - '0' == 1) {
+            return "лет";
+        }
+        else if (lastNumber == 1){
             return "год";
-        } else if (age >= 2 && age <= 4) {
+        }
+        else if (lastNumber >= 2 && lastNumber <= 4) {
             return "года";
-        } else return "лет";
+        }
+        else return "лет";
     }
 
     public int getAge() {
